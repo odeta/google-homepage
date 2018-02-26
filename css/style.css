@@ -1,0 +1,52 @@
+nav {
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+nav ul {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  float: right;
+}
+
+ul li {
+  display: inline;
+  padding: 7px;
+}
+
+li a {
+  color: rgba(0, 0, 0, 0.87);
+  line-height: 28px;
+  text-decoration: none;
+}
+
+li:hover a {
+  text-decoration: underline;
+}
+
+#google-apps-icon {
+  width: 23px;
+  height: 23px;
+  position: relative;
+  opacity: 0.6;
+  top: 6px;
+}
+
+#google-apps-icon:hover {
+  opacity: 0.8;
+}
+
+#sign-in-button {
+  border: 1px solid rgb(66, 133, 244);
+  border-radius: 2px;
+  background: rgb(66, 133, 244);
+  background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+  background: linear-gradient(top, #4387fd, #4683ea);
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  font-weight: 700;
+  margin: 5px 0;
+  padding: 0 12px;
+  outline: none;
+  text-decoration: none;
+}
