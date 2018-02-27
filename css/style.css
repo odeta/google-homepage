@@ -1,20 +1,15 @@
 main {
   display: grid;
-  width: auto;
-  height: auto;
-  grid-template-rows: 50px 250px 1fr 1fr 1fr 1fr 1fr;
-  grid-template-columns: 100%;
+  width: 100vw;
+  height: 100vh;
+  grid-template-rows: 50px 250px 40px 70px 145px 40px 40px;
+  grid-template-columns: 100vw;
   justify-items: right;
 }
-
-/*main div {
-  border: 1px solid red;
-}*/
 
 main ul {
   font-family: arial, sans-serif;
   font-size: 13px;
-  justify-items: right;
 }
 
 ul li {
@@ -26,7 +21,6 @@ li a {
   color: rgba(0, 0, 0, 0.87);
   line-height: 28px;
   text-decoration: none;
-
 }
 
 li:hover a {
@@ -34,7 +28,6 @@ li:hover a {
 }
 
 input {
-
   font-family: arial, sans-serif;
   font-weight: 700;
   font-size: 13px;
@@ -86,10 +79,59 @@ input {
   box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0,0,0,0.08);
 }
 
+.language {
+  padding-top: 30px;
+  justify-self: center;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+.language a {
+  text-decoration: none;
+}
+
+.language a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  align-self: center;
+  background-color: rgb(243, 243, 243);
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  width: 100vw;
+}
+
+.lithuania {
+  justify-self: left;
+  border-bottom: 1px solid rgb(207, 207, 207);
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 14px;
+  border-top: 1px solid rgb(207, 207, 207);
+  padding: 12px 100% 12px 27px;
+}
+
+.bottom-nav {
+  justify-self: left;
+  padding: 7px 0 7px 20px;
+}
+
+.bottom-nav ul li a {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.bottom-nav ul li {
+  float: left;
+}
+
+.bottom-nav ul li:last-child {
+  float: right;
+}
+
 #google-logo {
   width:auto;
   height: auto;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 #google-apps-icon {
