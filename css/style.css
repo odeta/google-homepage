@@ -14,13 +14,19 @@ main ul {
 
 ul li {
   display: inline;
-  padding: 7px;
 }
 
 li a {
+  text-decoration: none;
+}
+
+.header ul li {
+  padding: 7px;
+}
+
+.header ul li a {
   color: rgba(0, 0, 0, 0.87);
   line-height: 28px;
-  text-decoration: none;
 }
 
 li:hover a {
@@ -95,6 +101,42 @@ input {
 }
 
 .footer {
+  background-color: rgb(243, 243, 243);
+  font-family: arial, sans-serif;
+  padding-top: 12.5px;
+  justify-self: start;
+  width: 100vw;
+  border-top: 1px solid #e4e4e5;
+}
+
+.lithuania {
+  font-size: 14px;
+  color: rgb(102,102,102);
+}
+
+.lithuania p {
+  padding-left: 27px;
+}
+
+.bottom-nav ul li a {
+  color: rgb(102, 102, 102);
+  padding-right: 20px;
+}
+
+.bottom-nav ul li:first-child {
+  padding-left: 27px;
+}
+
+.right {
+  float:right;
+}
+
+.bottom-nav ul li:last-child {
+  padding-right: 27px;
+}
+
+/*
+.footer {
   align-self: center;
   background-color: rgb(243, 243, 243);
   font-family: arial, sans-serif;
@@ -108,7 +150,7 @@ input {
   color: rgba(0, 0, 0, 0.54);
   font-size: 14px;
   border-top: 1px solid rgb(207, 207, 207);
-  padding: 12px 100% 12px 27px;
+  padding: 12px 0 12px 27px;
 }
 
 .bottom-nav {
@@ -127,7 +169,7 @@ input {
 .bottom-nav ul li:last-child {
   float: right;
 }
-
+*/
 #google-logo {
   width:auto;
   height: auto;
