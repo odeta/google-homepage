@@ -1,4 +1,4 @@
-main {
+.grid {
   display: grid;
   width: 100vw;
   height: 100vh;
@@ -7,9 +7,8 @@ main {
   justify-items: right;
 }
 
-main ul {
-  font-family: arial, sans-serif;
-  font-size: 13px;
+.grid ul {
+  font: 13px arial, sans-serif;
 }
 
 ul li {
@@ -34,9 +33,8 @@ li:hover a {
 }
 
 input {
-  font-family: arial, sans-serif;
+  font: 13px arial, sans-serif;
   font-weight: 700;
-  font-size: 13px;
   width: 500px;
   height: 40px;
   border-radius: 0;
@@ -85,11 +83,15 @@ input {
   box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0,0,0,0.08);
 }
 
+.input input {
+  font: 16px arial, sans-serif;
+  color: black;
+}
+
 .language {
   padding-top: 30px;
   justify-self: center;
-  font-family: arial, sans-serif;
-  font-size: 13px;
+  font: 13px arial, sans-serif;
 }
 
 .language a {
@@ -114,17 +116,9 @@ input {
   color: rgb(102,102,102);
 }
 
-.lithuania p {
-  padding-left: 27px;
-}
-
 .bottom-nav ul li a {
   color: rgb(102, 102, 102);
   padding-right: 20px;
-}
-
-.bottom-nav ul li:first-child {
-  padding-left: 27px;
 }
 
 .right {
@@ -135,41 +129,10 @@ input {
   padding-right: 27px;
 }
 
-/*
-.footer {
-  align-self: center;
-  background-color: rgb(243, 243, 243);
-  font-family: arial, sans-serif;
-  font-size: 13px;
-  width: 100vw;
+.padding {
+  padding-left: 27px;
 }
 
-.lithuania {
-  justify-self: left;
-  border-bottom: 1px solid rgb(207, 207, 207);
-  color: rgba(0, 0, 0, 0.54);
-  font-size: 14px;
-  border-top: 1px solid rgb(207, 207, 207);
-  padding: 12px 0 12px 27px;
-}
-
-.bottom-nav {
-  justify-self: left;
-  padding: 7px 0 7px 20px;
-}
-
-.bottom-nav ul li a {
-  color: rgba(0, 0, 0, 0.54);
-}
-
-.bottom-nav ul li {
-  float: left;
-}
-
-.bottom-nav ul li:last-child {
-  float: right;
-}
-*/
 #google-logo {
   width:auto;
   height: auto;
