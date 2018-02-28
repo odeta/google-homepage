@@ -1,3 +1,3 @@
 # google-homepage
 
-Building Google homepage from scratch
+Google homepage design from scratch.
